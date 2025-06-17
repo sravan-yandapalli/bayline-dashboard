@@ -204,7 +204,7 @@ const AdminDashboard = () => {
                         outerRadius={60}
                         label
                       >
-                        {userStats.map((entry, index) => (
+                        {userStats.map((_, index) => (
                           <Cell key={index} fill={colors[index % colors.length]} />
                         ))}
                       </Pie>
