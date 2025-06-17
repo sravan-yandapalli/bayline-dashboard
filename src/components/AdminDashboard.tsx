@@ -167,7 +167,7 @@ const AdminDashboard = () => {
             {/* Today's Images */}
             <Card className="bg-blue-50 shadow-xl">
               <CardContent className="p-4 md:p-6">
-                <h2 className="text-lg font-semibold">Today's Images Uploaded</h2>
+                <h2 className="text-lg font-semibold">Today&apos;s Images Uploaded</h2>
                 <p className="text-2xl font-bold mt-2">{todayImageCount}</p>
               </CardContent>
             </Card>
