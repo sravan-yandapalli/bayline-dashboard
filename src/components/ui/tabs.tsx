@@ -1,6 +1,6 @@
 // components/ui/tabs.tsx
 "use client";
-import React, { useState, createContext, useContext } from "react";
+import React, { createContext, useContext } from "react";
 
 const TabsContext = createContext<any>(null);
 
